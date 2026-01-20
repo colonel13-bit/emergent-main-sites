@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your marketing site description">
+    <title>Home | Your Brand</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- ============================================
+         HERO SECTION
+         Full-width hero image with text overlay
+         ============================================ -->
+    <section class="hero" id="hero">
+        <div class="hero__image">
+            <!-- Background image set via CSS or inline style -->
+            <img src="images/hero-placeholder.jpg" alt="Hero image" class="hero__bg">
+        </div>
+        <div class="hero__overlay">
+            <div class="hero__content container">
+                <h1 class="hero__title">Welcome to Our Brand</h1>
+                <p class="hero__subtitle">Crafting exceptional solutions for modern challenges</p>
+                <a href="#contact" class="btn btn--primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         INTRODUCTION SECTION
+         Copy block with company introduction
+         ============================================ -->
+    <section class="intro section" id="intro">
+        <div class="container">
+            <div class="intro__content">
+                <h2 class="section__title">Who We Are</h2>
+                <p class="intro__text">
+                    We are a team of passionate professionals dedicated to delivering innovative 
+                    solutions that drive real results. Our approach combines strategic thinking 
+                    with creative execution to help our clients achieve their goals.
+                </p>
+                <p class="intro__text">
+                    With years of experience and a commitment to excellence, we've built a 
+                    reputation for quality, reliability, and outstanding service.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         THREE COLUMNS SECTION
+         Three image and copy blocks at the same level
+         ============================================ -->
+    <section class="features section" id="features">
+        <div class="container">
+            <h2 class="section__title text-center">What We Offer</h2>
+            
+            <div class="features__grid">
+                <!-- Feature 1 -->
+                <article class="feature-card">
+                    <div class="feature-card__image">
+                        <img src="images/feature-1-placeholder.jpg" alt="Service 1" loading="lazy">
+                    </div>
+                    <div class="feature-card__content">
+                        <h3 class="feature-card__title">Strategic Planning</h3>
+                        <p class="feature-card__text">
+                            We develop comprehensive strategies tailored to your unique needs 
+                            and objectives, ensuring every decision is backed by data and insight.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Feature 2 -->
+                <article class="feature-card">
+                    <div class="feature-card__image">
+                        <img src="images/feature-2-placeholder.jpg" alt="Service 2" loading="lazy">
+                    </div>
+                    <div class="feature-card__content">
+                        <h3 class="feature-card__title">Creative Solutions</h3>
+                        <p class="feature-card__text">
+                            Our team brings fresh perspectives and innovative thinking to solve 
+                            complex challenges with elegant, effective solutions.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Feature 3 -->
+                <article class="feature-card">
+                    <div class="feature-card__image">
+                        <img src="images/feature-3-placeholder.jpg" alt="Service 3" loading="lazy">
+                    </div>
+                    <div class="feature-card__content">
+                        <h3 class="feature-card__title">Proven Results</h3>
+                        <p class="feature-card__text">
+                            We measure success by the impact we create. Our track record speaks 
+                            to our ability to deliver measurable, sustainable results.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ALTERNATING IMAGE/COPY SECTIONS
+         Image, copy block, image, copy block, image, copy block
+         ============================================ -->
+    
+    <!-- Section 1: Image Left, Copy Right -->
+    <section class="showcase section" id="showcase-1">
+        <div class="container">
+            <div class="showcase__grid showcase__grid--reverse">
+                <div class="showcase__image">
+                    <img src="images/showcase-1-placeholder.jpg" alt="Our approach" loading="lazy">
+                </div>
+                <div class="showcase__content">
+                    <h2 class="showcase__title">Our Approach</h2>
+                    <p class="showcase__text">
+                        Every project begins with understanding. We take time to listen, learn, 
+                        and truly grasp what makes your business unique. This foundation allows 
+                        us to craft solutions that are not just effective, but perfectly aligned 
+                        with your vision and values.
+                    </p>
+                    <p class="showcase__text">
+                        Our collaborative process ensures you're involved every step of the way, 
+                        from initial concept to final delivery and beyond.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Copy Left, Image Right -->
+    <section class="showcase section section--alt" id="showcase-2">
+        <div class="container">
+            <div class="showcase__grid">
+                <div class="showcase__content">
+                    <h2 class="showcase__title">Proven Expertise</h2>
+                    <p class="showcase__text">
+                        With a diverse portfolio spanning multiple industries, we bring deep 
+                        expertise and cross-sector insights to every engagement. Our team stays 
+                        at the forefront of industry trends and best practices, ensuring you 
+                        benefit from cutting-edge knowledge and innovative approaches.
+                    </p>
+                    <p class="showcase__text">
+                        We don't just follow trends—we help set them, combining timeless 
+                        principles with forward-thinking innovation.
+                    </p>
+                </div>
+                <div class="showcase__image">
+                    <img src="images/showcase-2-placeholder.jpg" alt="Our expertise" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Image Left, Copy Right -->
+    <section class="showcase section" id="showcase-3">
+        <div class="container">
+            <div class="showcase__grid showcase__grid--reverse">
+                <div class="showcase__image">
+                    <img src="images/showcase-3-placeholder.jpg" alt="Long-term partnership" loading="lazy">
+                </div>
+                <div class="showcase__content">
+                    <h2 class="showcase__title">Long-Term Partnership</h2>
+                    <p class="showcase__text">
+                        We believe in building relationships that last. Our commitment doesn't 
+                        end when a project is delivered—we're here to support your ongoing 
+                        success, adapt to your evolving needs, and continue driving value for 
+                        your organization year after year.
+                    </p>
+                    <p class="showcase__text">
+                        Many of our clients have been with us for years, a testament to the 
+                        quality of our work and the strength of our partnerships.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT FORM SECTION
+         Email submission form with validation
+         ============================================ -->
+    <section class="contact section section--alt" id="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <h2 class="section__title">Get in Touch</h2>
+                    <p class="contact__description">
+                        Ready to start a conversation? Fill out the form and we'll get back 
+                        to you within 24 hours.
+                    </p>
+                    
+                    <!-- LinkedIn Link -->
+                    <div class="contact__social">
+                        <a href="https://www.linkedin.com/company/yourcompany" 
+                           class="social-link" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="Visit our LinkedIn page">
+                            <svg class="social-link__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+                            </svg>
+                            <span>Connect on LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact__form-wrapper">
+                    <form class="contact-form" id="contactForm" action="/submit-contact" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form-input" 
+                                required 
+                                aria-required="true"
+                                placeholder="Your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input" 
+                                required 
+                                aria-required="true"
+                                placeholder="your.email@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company</label>
+                            <input 
+                                type="text" 
+                                id="company" 
+                                name="company" 
+                                class="form-input"
+                                placeholder="Your company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form-input form-textarea" 
+                                rows="5" 
+                                required 
+                                aria-required="true"
+                                placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--block">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         NEWSLETTER SIGNUP SECTION
+         Email capture for newsletter
+         ============================================ -->
+    <section class="newsletter section" id="newsletter">
+        <div class="container">
+            <div class="newsletter__content">
+                <h2 class="newsletter__title">Stay Updated</h2>
+                <p class="newsletter__description">
+                    Subscribe to our newsletter for insights, updates, and industry news.
+                </p>
+                
+                <form class="newsletter-form" id="newsletterForm" action="/submit-newsletter" method="POST">
+                    <div class="newsletter-form__group">
+                        <label for="newsletter-email" class="sr-only">Email address</label>
+                        <input 
+                            type="email" 
+                            id="newsletter-email" 
+                            name="email" 
+                            class="newsletter-form__input" 
+                            placeholder="Enter your email" 
+                            required 
+                            aria-required="true">
+                        <button type="submit" class="btn btn--accent newsletter-form__button">
+                            Subscribe
+                        </button>
+                    </div>
+                    <p class="newsletter-form__privacy">
+                        We respect your privacy. Unsubscribe at any time.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         Site footer with links and copyright
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3 class="footer__logo">Your Brand</h3>
+                    <p class="footer__tagline">Building the future, today.</p>
+                </div>
+                
+                <div class="footer__links">
+                    <a href="#hero" class="footer__link">Home</a>
+                    <a href="#features" class="footer__link">Services</a>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </div>
+
+                <div class="footer__social">
+                    <a href="https://www.linkedin.com/company/yourcompany" 
+                       class="footer__social-link" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; 2026 Your Brand. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         SCRIPTS
+         Form handling and interactions
+         ============================================ -->
+    <script src="js/main.js"></script>
+</body>
+</html>
